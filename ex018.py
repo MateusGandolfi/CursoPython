@@ -1,0 +1,5 @@
+from math import (cos,tan,sin,radians)
+an = float(input('Digite o ângulo que você deseja: '))
+print (f'O ângulo de {an} tem o SENO de {sin(radians(an)):.2f}')
+print (f'O ângulo de {an} tem o COSSENO de {cos(radians(an)):.2f}')
+print (f'O ângulo de {an} tem o TANGENTE de {tan(radians(an)):.2f}')
